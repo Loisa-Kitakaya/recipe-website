@@ -1,12 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
+  <title>Login Form</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Recipe</title>
+  <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script src="js/script.js"></script>
+
 </head>
+
 <body>
-  
+  <div class="login">
+    <img src="img/recipe.jpg" />
+    <p id="para1">Please provide your details below to login</p>
+    <form name="login" id="login" method="post" ">
+      <div class="form-input">
+        <input type="text" name="username" placeholder="Enter Username">
+      </div>
+      <div class="form-input">
+        <input type="password" name="password" placeholder="Enter Password">
+
+      </div>
+      <input type="submit" onclick="validate()" name="Submit" value="LOGIN" class="btn-login">
+      <input type="submit" name="cancel" value="CANCEL" class="btn-login">
+
+
+    </form>
+    <a href="#">Not Registered Here?</a>
+    <br>
+    <br>
+
+    <a href="#">Forgot Password?</a>
+  </div>
 </body>
+
 </html>

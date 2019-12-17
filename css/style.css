@@ -10,22 +10,19 @@
   font-weight: bold;
 }
 
-html{
-	background: url(img/background.jpg) no-repeat center center fixed;
+body{
+  margin: 0;
+  background: url("../img/wxy.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	
-}
-body{
-	margin: 0;
 }
 .container{
 	width: 500px;
 	height: 740px;
 	text-align: center;
-	background-color: rgba(52, 78, 94, 0.7);
+	background-color: rgb(1, 1, 2);
 	border-radius: 4px;
 	margin: 0 auto;
 	margin-top: 150px;

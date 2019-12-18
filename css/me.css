@@ -1,0 +1,33 @@
+h1{
+    color:white;
+   margin-left:30%;
+   font-family: 'Lilita One', cursive;
+font-family: 'Lobster', cursive;
+}
+.card{
+    border-radius:15px 50px;
+    
+}
+.card-body{
+    display: flex;
+}
+.card-body p{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.footer{
+    width:100%;
+    color:white;
+}
+.row{
+    margin-top: 5%;
+}
+.footer>.card-body{
+    text-align: center;
+}
+.styeling {
+    text-align: center;
+}
+#head{
+    text-align: center;
+}

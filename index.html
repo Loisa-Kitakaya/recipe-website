@@ -13,15 +13,15 @@
   <div class="login">
     <img src="img/recipe.jpg" />
     <p id="para1">Please provide your details below to login</p>
-    <form name="login" id="login" method="post" ">
-      <div class="form-input">
-        <input type="text" name="username" placeholder="Enter Username">
+    <form name="form_id" id="form_id" method="post">
+      <div class="form-input form-group">
+        <input type="text" id="username" placeholder="Enter Username">
       </div>
-      <div class="form-input">
-        <input type="password" name="password" placeholder="Enter Password">
+      <div class="form-input form-group">
+        <input type="password" id="password"  placeholder="Enter Password">
 
       </div>
-      <input type="button" id = "submit" onclick="validate()" name="Submit" value="LOGIN" class="btn-login">
+      <input type="button" id="submit" onclick="check(form)" value="LOGIN" class="btn-login">
       <input type="submit" name="cancel" value="CANCEL" class="btn-login">
 
 

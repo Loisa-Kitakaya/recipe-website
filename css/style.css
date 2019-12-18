@@ -22,13 +22,35 @@ body{
 	width: 500px;
 	height: 740px;
 	text-align: center;
-	background-color: rgb(1, 1, 2);
+	background-color: rgba(1, 1, 2, 0.178);
 	border-radius: 4px;
 	margin: 0 auto;
 	margin-top: 150px;
 	
 	
 }
+.cont{
+	width: 80%;
+	height: 500px;
+	text-align: center;
+	background-color: rgba(1, 1, 2, 0.178);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 150px;
+		
+}
+.image-row {
+  
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+
+}
+
 .login{
 	width: 500px;
 	height: 450px;

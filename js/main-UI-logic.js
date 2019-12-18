@@ -99,4 +99,29 @@ $(document).ready(function() {
     $(".recipe-nine-details").hide();
     $(".recipe-twelve-details").slideToggle();
   });
+  //display grid three
+  $(".recipe-thirteen").click(function() {
+    $(".recipe-fourteen-details").hide();
+    $(".recipe-fifteen-details").hide();
+    $(".recipe-sixteen-details").hide();
+    $(".recipe-thirteen-details").slideToggle();
+  });
+  $(".recipe-fourteen").click(function() {
+    $(".recipe-thirteen-details").hide();
+    $(".recipe-fifteen-details").hide();
+    $(".recipe-sixteen-details").hide();
+    $(".recipe-fourteen-details").slideToggle();
+  });
+  $(".recipe-fifteen").click(function() {
+    $(".recipe-fourteen-details").hide();
+    $(".recipe-thirteen-details").hide();
+    $(".recipe-sixteen-details").hide();
+    $(".recipe-fifteen-details").slideToggle();
+  });
+  $(".recipe-sixteen").click(function() {
+    $(".recipe-fourteen-details").hide();
+    $(".recipe-fifteen-details").hide();
+    $(".recipe-thirteen-details").hide();
+    $(".recipe-sixteen-details").slideToggle();
+  });
 });

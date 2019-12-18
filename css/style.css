@@ -74,6 +74,7 @@ body{
 	height: 120px;
 	margin-top: -60px;
 	margin-bottom: 30px;
+	border-radius: 70px;
 		
 }
 input[type="text"], input[type="password"]{

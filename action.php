@@ -1,4 +1,4 @@
-
+<!-- Connection to database called records.sql hosted on 127.0.0.1-->
 <?php
 ini_set ("display_errors", "1");
 error_reporting(E_ALL);
@@ -39,7 +39,7 @@ if($count==1){
 // If everything checks out, you will now be forwarded to admin.php
 $user = mysqli_fetch_assoc($result);
  $_SESSION['ID'] = $user['ID'];
-header("location:admin.php");
+header("location:recipes.html");
 }
 //If the username or password is wrong, you will receive this message below.
 else {
@@ -48,4 +48,31 @@ echo "Wrong Username or Password<br><br>Return to <a href=\"index.php\">login</a
 git 
 ob_end_flush();
 
-?> 
+?>
+
+<!-- Code for allowing a user to register for an account -->
+<?php
+
+$conn = mysqli_connect('localhost', 'root', '','records');
+if (!$conn)
+{
+	echo 'Error '.mysqli_error($conn);
+}
+//Process
+if (isset($_POST['submit']))
+{
+
+$firstname = addslashes( $_POST['firstname'] ); //prevents types of SQL injection
+$lastname = addslashes( $_POST['lastname'] ); //prevents types of SQL injection
+$contact = addslashes( $_POST['contact'] ); //prevents type
+$email = addslashes( $_POST['emailadd'] );
+$username = $_POST['username'];
+$password = $_POST['password'];
+$newpass = md5($password); //This will make your password encrypted into md5, a high security hash
+
+$sql = mysqli_query( $conn,"INSERT INTO users(fname, lname, contact, email, username, hash) VALUES ('$firstname','$lastname', '$contact', '$email', '$username', '$newpass')" )
+        or die( mysqli_error($conn) );
+
+die( "You have registered for an account.<br><br>Go to <a href=\"index.php\">Login</a>");
+}
+?>

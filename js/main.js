@@ -7,7 +7,25 @@ $(document).ready(function() {
 	  } else {
 	    alert("Kindly provide the correct username or password") /*displays error message*/
 	  }
-	}
+  }
+  
+  //Checks whether user has provided credentials
+  function memloginvalidate()
+{
+   if(document.form1.username.value == "")
+     {
+        alert("Please Enter Username");
+        document.form1.username.focus();
+        return false;
+     }
+   if(document.form1.password.value == "")
+     {
+        alert("Please Enter Password");
+        document.form1.password.focus();
+        return false;
+     }
+   }
+
   //UI logic
   //display in grid one
   $(".recipe-one").click(function() {

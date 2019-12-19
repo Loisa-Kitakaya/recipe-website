@@ -1,0 +1,85 @@
+/*loisa*/
+/* global stylings */
+body {
+  background-color: aliceblue;
+}
+
+.elem-alignment {
+  text-align: center;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.space-top {
+  margin-top: 2rem;
+}
+
+.hide {
+  display: none;
+}
+
+.mouse-on-hover {
+  cursor: pointer;
+}
+
+h3 {
+  color: rgb(75, 75, 153);
+  text-align: center;
+  font-family: "Lilita One", cursive;
+  font-size: 40px;
+}
+
+.card,
+img {
+  border-radius: 15px 50px;
+}
+.card-body {
+  display: flex;
+}
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(57, 40, 202, 0.534),
+    0 6px 20px 0 rgba(7, 42, 243, 0.664);
+}
+.card bg-danger:hover {
+  box-shadow: 0 4px 8px 0 rgba(57, 40, 202, 0.534),
+    0 6px 20px 0 rgba(7, 42, 243, 0.664);
+}
+.card-body p {
+  margin-left: 4%;
+  margin-top: 1%;
+  font-size: 30px;
+}
+.footer {
+  width: 100%;
+  color: white;
+}
+
+.row {
+  margin-top: 5%;
+}
+.footer > .card-body {
+  text-align: center;
+}
+.styeling {
+  text-align: center;
+}
+.header {
+  text-align: center;
+  font-size: 40px;
+  /* font-family: 'Lilita One', cursive; */
+  font-family: "Lobster", cursive;
+}
+.card-footer {
+  background-color: rgb(64, 111, 199);
+}
+.card-footer p {
+  text-align: center;
+  color: white;
+}
+.card-footer p:hover {
+  color: red;
+  box-shadow: 0 4px 8px 0 rgba(129, 13, 13, 0.534),
+    0 6px 20px 0 rgba(243, 7, 7, 0.664);
+}

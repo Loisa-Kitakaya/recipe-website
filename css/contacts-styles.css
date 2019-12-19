@@ -10,7 +10,7 @@ h2{
     text-align: center;
 }
 body{
-    background-image: url(https://bit.ly/2qZD9w2);
+    background-image: url(https://www.yourtimeinireland.ie/wp-content/uploads/Street_scenes_galway/bigstock-Healthy-food-background-69442900-300x219.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -27,14 +27,55 @@ body{
     text-align: center;
     
 }
-nav>ul>li{
-    list-style-type: none;
-    display: inline;
+.header{
+    text-align: center;
+    font-size:40px;
+    /* font-family: 'Lilita One', cursive; */
+   font-family: 'Lobster', cursive;
     
     
 }
-li>a{
-    color: black;
-    font-size: 30px;
+.card{
+    border-radius:15px 50px;
+}
+
+.card-body{
+    display: flex;
+}
+
+h1{
+    color:white;
+   margin-left:30%;
+   font-family: 'Lilita One', cursive;
+   font-family: 'Lobster', cursive;
+}
+
+.footer{
+    width:100%;
+    color:white;
+}
+
+.card-footer{
+    background-color: rgb(64, 111, 199);
+}
+.card-footer p{
     text-align: center;
+    color:white;
+}
+.card-footer p:hover{
+    color:red;
+    box-shadow: 0 4px 8px 0 rgba(129, 13, 13, 0.534), 0 6px 20px 0 rgba(243, 7, 7, 0.664);
+}
+
+.footer>.card-body{
+    text-align: center;
+}
+
+.styeling {
+    text-align: center;
+}
+.card-body p{
+    margin-left: 4%;
+    margin-top: 1%;
+    font-size: 30px;
 }

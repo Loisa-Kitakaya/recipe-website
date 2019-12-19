@@ -1,4 +1,3 @@
-/*maggie*/
 h1{
     color:white;
    margin-left:30%;
@@ -24,6 +23,7 @@ body{
 .card-body p{
     margin-left: 4%;
     margin-top: 1%;
+    font-size:30px;
 }
 .footer{
     width:100%;

@@ -1,63 +1,63 @@
-h1{
-    color:white;
-   margin-left:30%;
-   font-family: 'Lilita One', cursive;
-   font-family: 'Lobster', cursive;
+h1 {
+  color: white;
+  margin-left: 30%;
+  font-family: "Lilita One", cursive;
+  font-family: "Lobster", cursive;
 }
-body{
-    background-color: aliceblue;
+body {
+  background-color: aliceblue;
 }
-.card{
-    border-radius:15px 50px;
-    
+.card {
+  border-radius: 15px 50px;
 }
-.card-body{
-    display: flex;
+.card-body {
+  display: flex;
 }
-.card:hover{
-    box-shadow: 0 4px 8px 0 rgba(57, 40, 202, 0.534), 0 6px 20px 0 rgba(7, 42, 243, 0.664);
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(57, 40, 202, 0.534),
+    0 6px 20px 0 rgba(7, 42, 243, 0.664);
 }
-.card bg-danger:hover{
-    box-shadow: 0 4px 8px 0 rgba(57, 40, 202, 0.534), 0 6px 20px 0 rgba(7, 42, 243, 0.664);
+.card bg-danger:hover {
+  box-shadow: 0 4px 8px 0 rgba(57, 40, 202, 0.534),
+    0 6px 20px 0 rgba(7, 42, 243, 0.664);
 }
-.card-body p{
-    margin-left: 4%;
-    margin-top: 1%;
-    font-size:30px;
+.card-body p {
+  margin-left: 4%;
+  margin-top: 1%;
+  font-size: 30px;
 }
-.footer{
-    width:100%;
-    color:white;
+.footer {
+  width: 100%;
+  color: white;
 }
 
-#mc_embed_signup{
-    background:#fff; 
-    clear:left; 
-    font:14px Helvetica,Arial,sans-serif;
- }
-.row{
-    margin-top: 5%;
+.row {
+  margin-top: 5%;
 }
-.footer>.card-body{
-    text-align: center;
+.footer > .card-body {
+  text-align: center;
 }
 .styeling {
-    text-align: center;
+  text-align: center;
 }
-.header{
-    text-align: center;
-    font-size:40px;
-    /* font-family: 'Lilita One', cursive; */
-   font-family: 'Lobster', cursive;
+.header {
+  text-align: center;
+  font-size: 40px;
+  /* font-family: 'Lilita One', cursive; */
+  font-family: "Lobster", cursive;
 }
-.card-footer{
-    background-color: rgb(64, 111, 199);
+.card-footer {
+  background-color: rgb(64, 111, 199);
 }
-.card-footer p{
-    text-align: center;
-    color:white;
+.card-footer p {
+  text-align: center;
+  color: white;
 }
-.card-footer p:hover{
-    color:red;
-    box-shadow: 0 4px 8px 0 rgba(129, 13, 13, 0.534), 0 6px 20px 0 rgba(243, 7, 7, 0.664);
+.card-footer p:hover {
+  color: red;
+  box-shadow: 0 4px 8px 0 rgba(129, 13, 13, 0.534),
+    0 6px 20px 0 rgba(243, 7, 7, 0.664);
+}
+.center-cont {
+  text-align: center;
 }

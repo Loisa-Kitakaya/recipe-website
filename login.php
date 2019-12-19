@@ -16,15 +16,15 @@
     <div class="login">
       <img src="img/recipe.jpg" />
       <p id="para1">Please provide your details below to login</p>
-      <form name="form1" id="form1" method="post" action = "action.php" onSubmit="return memloginvalidate()">
+      <form name="form1" id="form1" method="POST" action = "action.php" onSubmit="return memloginvalidate()">
         <div class="form-input form-group">
-          <input type="text" id="username" placeholder="Enter Username">
+          <input type="text" name = 'username' id="username" placeholder="Enter Username">
         </div>
         <div class="form-input form-group">
-          <input type="password" id="password" placeholder="Enter Password">
+          <input type="password" name = 'password' id="password" placeholder="Enter Password">
 
         </div>
-        <input type="button" id="submit" onclick="check(form)" value="LOGIN" class="btn-login">
+        <input type="submit" name = "Submit" value="LOGIN" class="btn-login">
         <input type="submit" name="cancel" value="CANCEL" class="btn-login">
 
 

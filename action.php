@@ -1,4 +1,4 @@
-<!-- Connection to database called records.sql hosted on 127.0.0.1-->
+<!-- Connection to database called recipe.sql hosted on 127.0.0.1-->
 <?php
 ini_set ("display_errors", "1");
 error_reporting(E_ALL);
@@ -7,11 +7,11 @@ session_start();
 $host="localhost"; // Host name
 $username="root"; // Database username
 $password=""; // Database password
-$db_name="records"; // Database name
+$db_name="recipe"; // Database name
 $tbl_name="users"; // Table name
 
 // This will connect you to your database
-$conn = mysqli_connect('localhost', 'root', '','records');
+$conn = mysqli_connect('localhost', 'root', '','recipe');
 if (!$conn)
 {
 	echo 'Error '.mysqli_error($conn);
@@ -36,16 +36,16 @@ $count=mysqli_num_rows($result);
 // If username and password is a match, the count will be 1
 
 if($count==1){
-// If everything checks out, you will now be forwarded to admin.php
+// If everything checks out, you will now be forwarded to recipes.html
 $user = mysqli_fetch_assoc($result);
  $_SESSION['ID'] = $user['ID'];
 header("location:recipes.html");
 }
 //If the username or password is wrong, you will receive this message below.
 else {
-echo "Wrong Username or Password<br><br>Return to <a href=\"index.php\">login</a>";
+echo "Wrong Username or Password<br><br>Return to <a href=\"login.php\">login</a>";
 }
-git 
+
 ob_end_flush();
 
 ?>

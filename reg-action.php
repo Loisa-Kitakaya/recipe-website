@@ -2,7 +2,7 @@
 <!-- Code for allowing a user to register for an account -->
 <?php
 
-$conn = mysqli_connect('localhost', 'root', '','records');
+$conn = mysqli_connect('localhost', 'root', '','recipe');
 if (!$conn)
 {
 	echo 'Error '.mysqli_error($conn);
@@ -22,7 +22,7 @@ $newpass = md5($password); //This will make your password encrypted into md5, a 
 $sql = mysqli_query( $conn,"INSERT INTO users(fname, lname, contact, email, username, hash) VALUES ('$firstname','$lastname', '$contact', '$email', '$username', '$newpass')" )
         or die( mysqli_error($conn) );
 
-die( "You have registered for an account.<br><br>Go to <a href=\"index.php\">Login</a>");
+die( "You have registered for an account.<br><br>Go to <a href=\"login.php\">Login</a>");
 }
 
 ob_end_flush();

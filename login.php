@@ -11,12 +11,12 @@
 
 </head>
 
-<body>
+<body onLoad="document.form1.username.focus();">
   <div class="container">
     <div class="login">
       <img src="img/recipe.jpg" />
       <p id="para1">Please provide your details below to login</p>
-      <form name="form_id" id="form_id" method="post">
+      <form name="form1" id="form1" method="post" action = "action.php" onSubmit="return memloginvalidate()">
         <div class="form-input form-group">
           <input type="text" id="username" placeholder="Enter Username">
         </div>
@@ -29,6 +29,7 @@
 
 
       </form>
+      <a href="register.php">Not Registered Here?</a>
       
     </div>
   </div>

@@ -1,0 +1,91 @@
+/*winnie*/
+form>input{
+    width: 50%;
+    padding :10px 18px;
+    box-sizing: border-box;
+    ;
+    
+}
+h2{
+    text-align: center;
+}
+body{
+    background-image: url(https://smittenkitchendotcom.files.wordpress.com/2019/12/unfussy-sugar-cookies.jpg?w=640);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mc_embed_signup {
+    background: rgba(255, 255, 255, 0);
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
+.button{
+    width:10%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.header{
+    text-align: center;
+    font-size:40px;
+    /* font-family: 'Lilita One', cursive; */
+   font-family: 'Lobster', cursive;
+    
+    
+}
+.card{
+    border-radius:15px 50px;
+}
+
+.card-body{
+    display: flex;
+}
+
+h1{
+    color:white;
+   margin-left:30%;
+   font-family: 'Lilita One', cursive;
+   font-family: 'Lobster', cursive;
+}
+
+.footer{
+    width:100%;
+    color:white;
+}
+
+.card-footer{
+    background-color: rgb(64, 111, 199);
+}
+.card-footer p{
+    text-align: center;
+    color:white;
+}
+.card-footer p:hover{
+    color:red;
+    box-shadow: 0 4px 8px 0 rgba(129, 13, 13, 0.534), 0 6px 20px 0 rgba(243, 7, 7, 0.664);
+}
+
+.footer>.card-body{
+    text-align: center;
+}
+
+.styeling {
+    text-align: center;
+}
+.card-body p{
+    margin-left: 4%;
+    margin-top: 1%;
+    font-size: 30px;
+}
+#mc_embed_signup_scroll{
+    font-size: 20px;
+}
+.indicates-required{
+    font-size: 20px;
+}
+.col-md-6{
+ margin-left: 25%;
+ margin-top: 7%;
+}

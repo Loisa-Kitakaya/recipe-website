@@ -11,29 +11,27 @@
 
 </head>
 
-<body>
+<body onLoad="document.form1.username.focus();">
   <div class="container">
     <div class="login">
       <img src="img/recipe.jpg" />
       <p id="para1">Please provide your details below to login</p>
-      <form name="form_id" id="form_id" method="post">
+      <form name="form1" id="form1" method="POST" action = "action.php" onSubmit="return memloginvalidate()">
         <div class="form-input form-group">
-          <input type="text" id="username" placeholder="Enter Username">
+          <input type="text" name = 'username' id="username" placeholder="Enter Username">
         </div>
         <div class="form-input form-group">
-          <input type="password" id="password" placeholder="Enter Password">
+          <input type="password" name = 'password' id="password" placeholder="Enter Password">
 
         </div>
-        <input type="button" id="submit" onclick="check(form)" value="LOGIN" class="btn-login">
+        <input type="submit" name = "Submit" value="LOGIN" class="btn-login">
         <input type="submit" name="cancel" value="CANCEL" class="btn-login">
 
 
       </form>
-      <a href="#">Not Registered?</a>
-      <br>
-      <br>
-
-      <a href="#">Forgot Password?</a>
+      <a href="register.php">Not Registered Here?</a>
+      <a href="index.html">Return to Home?</a>
+      
     </div>
   </div>
 

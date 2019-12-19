@@ -7,6 +7,15 @@
     <!-- stylesheet links -->
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <!-- font links -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lilita+One|Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lilita+One|Lobster|Oleo+Script&display=swap"
+      rel="stylesheet"
+    />
     <title>Know Your Food</title>
   </head>
   <body>
@@ -14,13 +23,20 @@
     <!-- container class -->
     <div class="container">
       <!-- navigation bar -->
-      <nav class="card-header navigation-bar">
-        <ul>
-          <li class="navigation-bar_elem"><a href="#">Home</a></li>
-          <li class="navigation-bar_elem"><a href="#">Recipes</a></li>
-          <li class="navigation-bar_elem"><a href="#">Subscribe</a></li>
-        </ul>
-      </nav>
+      <div class="card bg-danger">
+        <div class="card-body">
+          <h1 class="head">
+            <img
+              src="https://ak.imgfarm.com/images/vicinio/dsp-images/nicole.guinta/asset1_2/1568214147964.png"
+            />
+          </h1>
+          <br /><br />
+          <p><a href="index.html">Popular</a></p>
+          <p><a href="contacts.html">contacts</a></p>
+          <p><a href="recipes.html">Recipes</a></p>
+          <br /><br />
+        </div>
+      </div>
       <!-- page title -->
       <h3 class="text-align space-top">Recipes</h3>
       <!-- grid one -->
@@ -536,20 +552,20 @@
         </div>
       </div>
       <!-- footer section -->
-      <div class="card-footer space-top">
-        <p class="text-align">
-          Phone: +254725131828 <br />
-          Address: Nairobi, Kenya, 00100 <br />
-          E-mail: loisakitakaya@gmail.com
-        </p>
+      <div class="container-fluid" style="margin-top:3%">
+        <div class="footer">
+          <div class="card bg-danger">
+            <div class="card-body">
+              <div class="col-md-12">
+                <p class="styeling">&copy 2019 Recipe Website</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- script links -->
     <script src="./js/jquery-3.4.1.js"></script>
-<<<<<<< HEAD
-    <script src="./js/main-UI-logic.js"></script>
-=======
     <script src="./js/main.js"></script>
->>>>>>> dev
   </body>
 </html>

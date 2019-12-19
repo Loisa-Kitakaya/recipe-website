@@ -10,7 +10,7 @@ h2{
     text-align: center;
 }
 body{
-    background-image: url(https://www.yourtimeinireland.ie/wp-content/uploads/Street_scenes_galway/bigstock-Healthy-food-background-69442900-300x219.jpg);
+    background-image: url(https://smittenkitchendotcom.files.wordpress.com/2019/12/unfussy-sugar-cookies.jpg?w=640);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -78,4 +78,14 @@ h1{
     margin-left: 4%;
     margin-top: 1%;
     font-size: 30px;
+}
+#mc_embed_signup_scroll{
+    font-size: 20px;
+}
+.indicates-required{
+    font-size: 20px;
+}
+.col-md-6{
+ margin-left: 25%;
+ margin-top: 7%;
 }
